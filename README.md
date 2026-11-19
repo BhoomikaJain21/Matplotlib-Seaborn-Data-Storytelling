@@ -82,18 +82,18 @@ This is a **descriptive** analysis. It does not build predictive models, and it 
 
 | Chart | What it shows | File |
 |---|---|---|
-| Histogram (20 bins + KDE) | Distribution of total restaurant bills | [`outputs/histogram.png`](outputs/histogram.png) |
-| Box plot | Distribution of tips by day | [`outputs/boxplot.png`](outputs/boxplot.png) |
-| Bar chart | Average tip by day, with 95% confidence intervals | [`outputs/bar_chart.png`](outputs/bar_chart.png) |
-| Scatter plot | Total bill vs tip, coloured by meal time | [`outputs/scatter_plot.png`](outputs/scatter_plot.png) |
-| Correlation heatmap | Pearson correlations between `total_bill`, `tip` and `size` | [`outputs/correlation_heatmap.png`](outputs/correlation_heatmap.png) |
-| 2×2 dashboard | Histogram, box plot, scatter plot and heatmap together | [`outputs/tips_dashboard.png`](outputs/tips_dashboard.png) |
+| Histogram (20 bins + KDE) | Distribution of total restaurant bills | [`histogram.png`](histogram.png) |
+| Box plot | Distribution of tips by day | [`boxplot.png`](boxplot.png) |
+| Bar chart | Average tip by day, with 95% confidence intervals | [`bar_chart.png`](bar_chart.png) |
+| Scatter plot | Total bill vs tip, coloured by meal time | [`scatter_plot.png`](scatter_plot.png) |
+| Correlation heatmap | Pearson correlations between `total_bill`, `tip` and `size` | [`correlation_heatmap.png`](correlation_heatmap.png) |
+| 2×2 dashboard | Histogram, box plot, scatter plot and heatmap together | [`tips_dashboard.png`](tips_dashboard.png) |
 
 All charts are saved at 150 DPI.
 
 ## Dashboard Preview
 
-![Restaurant Tips Dashboard](outputs/tips_dashboard.png)
+![Restaurant Tips Dashboard](tips_dashboard.png)
 
 ## Key Findings
 
@@ -134,17 +134,14 @@ All figures come directly from the notebook's outputs and describe all 244 bills
 Matplotlib-Seaborn-Data-Storytelling/
 │
 ├── data_visualization_analysis.ipynb
-├── outputs/
-│   ├── histogram.png
-│   ├── boxplot.png
-│   ├── bar_chart.png
-│   ├── scatter_plot.png
-│   ├── correlation_heatmap.png
-│   └── tips_dashboard.png
-│
+├── histogram.png
+├── boxplot.png
+├── bar_chart.png
+├── scatter_plot.png
+├── correlation_heatmap.png
+├── tips_dashboard.png
 ├── README.md
-├── requirements.txt
-└── .gitignore
+└── requirements.txt
 ```
 
 ## Installation and Execution
